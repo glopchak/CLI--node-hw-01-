@@ -1,0 +1,28 @@
+{
+  "name": "cli-node-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glopchak/CLI-node-hw-01.git"
+  },
+  "author": "glopchak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glopchak/CLI-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/glopchak/CLI-node-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.0"
+  }
+}
